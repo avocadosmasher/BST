@@ -185,7 +185,7 @@ int main()
         switch (input) {
         case 1:
             cin >> input;
-            test.Insert(input) ? cout << "삽입 성공.\n" : cout << "이미 존재하는 값입니다.\n";
+            test.Insert(input) ? cout << "" : cout << "이미 존재하는 값입니다.\n";
             break;
         case 2:
             cin >> input;
